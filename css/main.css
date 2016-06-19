@@ -290,6 +290,10 @@ footer p {
 	/* -- Lightbox Tablet --------------------------------------------------- */
 	/* ---------------------------------------------------------------------- */
 
+	.lightbox {
+		padding: 0;
+	}
+
 	.lightbox-close {
 	position: fixed;
 	top: 30px;
@@ -316,6 +320,7 @@ footer p {
 		height: 70px;
 		border: 1px solid #0C525E;
 		font-size: 2.5em;
+		margin:0;
 	}
 
 	.lightbox-next,

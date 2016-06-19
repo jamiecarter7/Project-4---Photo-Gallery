@@ -122,6 +122,7 @@ $( ".image-card" ).mouseup( function(){
 				$(this).children('img').attr('src')
 			);
 	});
+
 	// print array length
 	console.log(allImagesArray.length);
 	//print images array
@@ -142,45 +143,45 @@ $( ".image-card" ).mouseup( function(){
 	
 	
 
-//on mouse up on image go to next image
+////when clicking the image button within a lightbox
 $( ".lightbox-image" ).click( function(){
-	console.log('image click')
+	
+	//
+	if (imageNumberPosition === allImagesArray.length - 1){
+		console.log('click: lightbox image - CANCELLED')
+	} else {
+		console.log('click: lightbox image')
+		//next image array number
+		nextImage();
+		//update lightbox
+		updateLightbox();
+	}
+	
 });
 
+
+
+//when clicking previous button within a lightbox
 $( ".lightbox-previous" ).click( function(){
-	console.log('previous image')
+	console.log('click: previous button')
+	//previous image array number
 	previousImage();
+	//update lightbox
 	updateLightbox();
-
 });
-//on mouse up previous button (within lightbox)
-	//capture prevous image
-	//capture title
-	//capture blurb
-	//capture tags
 
-	//update image
-	//update title
-	//update blurb
-	//update tags
-	//update nav (is there previous image?)
 
+
+//when clicking next button within a lightbox
 $( ".lightbox-next" ).click( function(){
-	console.log('next image')
+	console.log('click: next button')
+	//next image array number
 	nextImage();
+	//update lightbox
 	updateLightbox();
 });
-//on mouse up next button (within lightbox)
-	//capture prevous image
-	//capture title
-	//capture blurb
-	//capture tags
 
-	//update image
-	//update title
-	//update blurb
-	//update tags
-	//update nav (is there next image?)
+
 
 
 //keyboard navigation
