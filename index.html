@@ -4,15 +4,35 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width-device-width, intitial-scale=1.0" />
 	<title>Jamie's Journeys</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
-	
+
+
+	<nav>
+		<div>
+			<input id="nav-searchbar" class="searchbar-js" type="search" placeholder="Search" />
+			<div class="nav-clear clear-button">CLEAR</div>
+			<p class="nav-searchbar-tags tags">
+						<span>grandcanyon</span> 
+	 					<span>desert</span>
+	 					<span>big</span>
+	 				</p>
+		</div>
+	</nav>
+
+
 	<header>
 
 		<h1>Jamie's Journeys</h1>
-		<input id="searchbar" placeholder="Search" />
+		<div class="clear clear-button">CLEAR</div>
+		<input id="searchbar" class="searchbar-js" type="search" placeholder="Search" />
+
+		<div>
+			<p class="searchbar-tags tags"></p>
+		</div>
 		<!-- Suggested random tags -->
 
 	</header> 
@@ -27,7 +47,7 @@
 	 			<div class="content">
 	 				<h2>Grand Canyon</h2>
 	 				<p class="hidden">The grand canyon is so huge the pictures do not do it justice</p>
-	 				<p class="hidden tags">Tags: 
+	 				<p class="hidden tags"> 
 	 					<span>grandcanyon</span> 
 	 					<span>desert</span>
 	 					<span>big</span>
@@ -43,7 +63,7 @@
 	 			<div class="content">
 	 				<h2>Beetle Car</h2>
 	 				<p class="hidden">One of many wonders to be discovered at the Konsthall Museum, Copenhagen</p>
-	 				<p class="hidden tags">Tags: 
+	 				<p class="hidden tags"> 
 	 					<span>car</span> 
 	 					<span>automobile</span>
 	 					<span>beetle</span>
@@ -191,6 +211,25 @@
 	 			</div>
 	 		</div>
 	 		<div class="image-card">
+				<img class="content" src="myPhotos/ducks.jpg" alt="">
+	 			<video class="content video hidden" controls>
+  					<source src="myPhotos/duckvideo.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+	 			<div class="content">
+	 				<h2>Ducklings</h2>
+	 				<p class="hidden">Some ducklings swimming around in the park</p>
+	 				<p class="hidden tags">Tags: 
+	 					<span>duck</span>
+	 					<span>duckling</span>
+	 					<span>swimming</span>
+	 					<span>park</span>
+	 					<span>malmo</span>
+	 					<span>sweden</span>
+	 				</p>
+	 			</div>
+	 		</div>
+	 		<div class="image-card">
 	 			<img class="content" src="myPhotos/roundabout.jpg" alt="">
 	 			<div class="content">
 	 				<h2>Busy Roundabout</h2>
@@ -205,6 +244,91 @@
 	 				</p>
 	 			</div>
 	 		</div>
+	 		<div class="image-card">
+	 			<img class="content" src="myPhotos/artwork.jpg" alt="">
+	 			<div class="content">
+	 				<h2>Glass Miurel</h2>
+	 				<p class="hidden">A great peice of glass artwork in San Franscisco</p>
+	 				<p class="hidden tags">Tags: 
+	 					<span>art</span>
+	 					<span>glass</span>
+	 					<span>light</span>
+	 					<span>san fransisco</span>
+	 					<span>america</span>
+	 				</p>
+	 			</div>
+	 		</div>
+			<div class="image-card">
+	 			<img class="content" src="myPhotos/cocktail.jpg" alt="">
+	 			<div class="content">
+	 				<h2>Blueberry Cocktail</h2>
+	 				<p class="hidden">A sweet cocktail while at The Shard</p>
+	 				<p class="hidden tags">Tags: 
+	 					<span>drink</span>
+	 					<span>cocktail</span>
+	 					<span>the shard</span>
+	 					<span>london</span>
+	 					<span>united kingdom</span>
+	 				</p>
+	 			</div>
+	 		</div>
+	 		<div class="image-card">
+	 			<img class="content" src="myPhotos/icecream.jpg" alt="">
+	 			<div class="content">
+	 				<h2>Icecream</h2>
+	 				<p class="hidden">Delicious icecream snack while bay 39</p>
+	 				<p class="hidden tags">Tags: 
+	 					<span>bay 39</span>
+	 					<span>icecream</span>
+	 					<span>food</span>
+	 					<span>cold</span>
+	 					<span>san fransisco</span>
+	 					<span>america</span>
+	 				</p>
+	 			</div>
+	 		</div>
+	 		<div class="image-card">
+	 			<img class="content" src="myPhotos/shopping.jpg" alt="">
+	 			<div class="content">
+	 				<h2>Escilators</h2>
+	 				<p class="hidden">Crazy escilators in shopping centre</p>
+	 				<p class="hidden tags">Tags: 
+	 					<span>architecture</span>
+	 					<span>shopping</span>
+	 					<span>design</span>
+	 					<span>Hong Kong</span>
+	 					<span>China</span>
+	 				</p>
+	 			</div>
+	 		</div>
+	 		<div class="image-card">
+	 			<img class="content" src="myPhotos/skyscraper.jpg" alt="">
+	 			<div class="content">
+	 				<h2>Skyscraper</h2>
+	 				<p class="hidden">Even the skyscrapers are drunk in Las Vegas</p>
+	 				<p class="hidden tags">Tags: 
+	 					<span>architecture</span>
+	 					<span>skyscraper</span>
+	 					<span>design</span>
+	 					<span>Las Vegas</span>
+	 					<span>America</span>
+	 				</p>
+	 			</div>
+	 		</div>
+	 		<div class="image-card">
+	 			<img class="content" src="myPhotos/snowmobiling.jpg" alt="">
+	 			<div class="content">
+	 				<h2>Snowmobiling</h2>
+	 				<p class="hidden">Snowmobiling in the plains of Finland</p>
+	 				<p class="hidden tags">Tags: 
+	 					<span>snow</span>
+	 					<span>cold</span>
+	 					<span>snowmobiling</span>
+	 					<span>Katalia</span>
+	 					<span>Findland</span>
+	 				</p>
+	 			</div>
+	 		</div>
 
 	 	</div>
 
@@ -215,22 +339,26 @@
  	</footer>
 
  	<div class="lightbox">
+ 		<div class="lightbox-currentsearch"></div>
  		<img class="lightbox-close" src="img/close.svg" alt="">
  		<a class="lightbox-previous"></a>
  		<div class="lightbox-previous-placeholder"></div>
  		<img class="lightbox-image" src="myPhotos/roundabout.jpg" alt="">
+ 		<video class="lightbox-video hidden" width="460" height="460" loop>
+ 			<source src="myPhotos/duckvideo.mp4" type="video/mp4">
+ 		</video>
  		<a class="lightbox-next"></a>
  		<div class="lightbox-next-placeholder"></div>
  		<h2>Title</h2>
  		<p>Blurb</p>
- 		<p class="lightbox-tags"></p>
+ 		<p class="lightbox-tags tags"></p>
  	</div>
 
 <!--Fonts @ typekit-->
 	<script src="https://use.typekit.net/pdt1tof.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 
 
